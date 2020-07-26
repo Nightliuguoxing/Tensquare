@@ -115,6 +115,34 @@ public class ProblemServiceImpl implements ProblemService {
     }
 
     /**
+     * 根据标签ID查询最新问题列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    @Override
+    public Page<Problem> findNewListByLabelId(String lableId, int page, int size) {
+        PageRequest pageRequest = PageRequest.of(page - 1, size);
+        return problemDao.findNewListByLabelId(lableId, pageRequest);
+    }
+
+    /**
+     * 根据标签ID查询热门问题列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    @Override
+    public Page<Problem> findHotListByLabelId(String lableId, int page, int size) {
+        PageRequest pageRequest = PageRequest.of(page - 1, size);
+        return problemDao.findHotListByLabelId(lableId, pageRequest);
+    }
+
+    /**
      * 动态条件构建
      *
      * @param searchMap

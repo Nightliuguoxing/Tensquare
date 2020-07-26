@@ -68,5 +68,24 @@ public interface ProblemService {
      */
     public void deleteById(String id);
 
+    /**
+     * 根据标签ID查询问题列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    public Page<Problem> findNewListByLabelId(String lableId, int page, int size);
+
+    /**
+     * 根据标签ID查询热门问题列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    public Page<Problem> findHotListByLabelId(String lableId,int page, int size);
 
 }
