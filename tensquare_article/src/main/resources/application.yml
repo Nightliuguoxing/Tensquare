@@ -15,3 +15,7 @@ spring:
     generate-ddl: true
   redis:
     host: localhost
+  data:
+    mongodb:
+      host: localhost
+      database: recruitdb
