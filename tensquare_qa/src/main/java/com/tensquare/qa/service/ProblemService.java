@@ -88,4 +88,13 @@ public interface ProblemService {
      */
     public Page<Problem> findHotListByLabelId(String lableId,int page, int size);
 
+    /**
+     * 根据标签ID查询等待回答列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    public Page<Problem> findWaitListByLabelId(String lableId,int page,int size);
 }

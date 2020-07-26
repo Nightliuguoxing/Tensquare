@@ -137,5 +137,20 @@ public class ProblemController {
         return new Result(true, StatusCode.OK, "查询成功",pageResult);
     }
 
+    /**
+     * 根据标签ID查询等待回答列表
+     *
+     * @param labelid
+     * @param page
+     * @param size
+     * @return
+     */
+    @GetMapping("/waitlist/{labelid}/{page}/{size}")
+    public Result findWaitListByLabelId(@PathVariable String labelid,@PathVariable int page,@PathVariable int size ) {
+        Page<Problem> pageList = problemService.findWaitListByLabelId(labelid, page, size);
+        PageResult<Problem> pageResult = new PageResult<>(pageList.getTotalElements(), pageList.getContent());
+        return new Result(true, StatusCode.OK, "查询成功",pageResult);
+    }
+
 }
 

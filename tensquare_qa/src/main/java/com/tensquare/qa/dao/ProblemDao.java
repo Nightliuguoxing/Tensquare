@@ -35,4 +35,14 @@ public interface ProblemDao extends JpaRepository<Problem, String>, JpaSpecifica
     @Query("SELECT p FROM Problem p WHERE id IN( SELECT problemid FROM Pl WHERE labelid=?1 ) ORDER BY reply DESC")
     public Page<Problem> findHotListByLabelId(String labelId, Pageable pageable);
 
+    /**
+     * 根据标签ID查询等待回答列表
+     *
+     * @param labelId
+     * @param pageable
+     * @return
+     */
+    @Query("SELECT p FROM Problem p WHERE id IN( SELECT problemid FROM Pl WHERE labelid=?1 ) AND reply=0 ORDER BY createtime DESC")
+    public Page<Problem> findWaitListByLabelId(String labelId, Pageable pageable);
+
 }

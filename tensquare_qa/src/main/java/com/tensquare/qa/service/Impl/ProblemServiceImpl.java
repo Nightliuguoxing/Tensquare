@@ -143,6 +143,20 @@ public class ProblemServiceImpl implements ProblemService {
     }
 
     /**
+     * 根据标签ID查询等待回答列表
+     *
+     * @param lableId
+     * @param page
+     * @param size
+     * @return
+     */
+    @Override
+    public Page<Problem> findWaitListByLabelId(String lableId, int page, int size) {
+        PageRequest pageRequest = PageRequest.of(page - 1, size);
+        return problemDao.findWaitListByLabelId(lableId, pageRequest);
+    }
+
+    /**
      * 动态条件构建
      *
      * @param searchMap
