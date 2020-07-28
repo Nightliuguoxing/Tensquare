@@ -61,5 +61,11 @@ public interface AdminService {
      */
     public void deleteById(String id) ;
 
+    /**
+     * 管理员登陆密码校验
+     * @param loginname
+     * @return
+     */
+    public Admin findByLoginname(String loginname, String password);
 }
 

@@ -105,6 +105,12 @@ public class UserController {
         return new Result(true, StatusCode.OK, "删除成功");
     }
 
+    /**
+     * 发送短信
+     *
+     * @param mobile
+     * @return
+     */
     @PostMapping("/sendsms/{mobile}")
     public Result sendsms(@PathVariable String mobile) {
         userService.sendSms(mobile);

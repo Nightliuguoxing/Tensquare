@@ -21,6 +21,11 @@ import java.util.Date;
 public class User implements Serializable {
 
     /**
+     * @DateTimeFormat(pattern = "yyyy-MM-dd")
+     * @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
+     */
+
+    /**
      * ID
      */
     @Id
@@ -49,8 +54,7 @@ public class User implements Serializable {
     /**
      * 出生年月日
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
     private Date birthday;
 
     /**
@@ -66,22 +70,19 @@ public class User implements Serializable {
     /**
      * 注册日期
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
     private Date regdate;
 
     /**
      * 修改日期
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
     private Date updatedate;
 
     /**
      * 最后登陆日期
      */
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    @JsonFormat(pattern = "yyyy-MM-dd")
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd HH:mm:ss")
     private Date lastdate;
 
     /**

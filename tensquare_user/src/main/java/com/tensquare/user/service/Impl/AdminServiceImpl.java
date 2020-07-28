@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -33,8 +34,12 @@ public class AdminServiceImpl implements AdminService {
     @Autowired
     private IdWorker idWorker;
 
+    @Autowired
+    private BCryptPasswordEncoder encoder;
+
     /**
      * 查询全部列表
+     *
      * @return
      */
     @Override
@@ -44,6 +49,7 @@ public class AdminServiceImpl implements AdminService {
 
     /**
      * 分页条件查询
+     *
      * @param whereMap
      * @param page
      * @param size
@@ -52,12 +58,13 @@ public class AdminServiceImpl implements AdminService {
     @Override
     public Page<Admin> findSearch(Map whereMap, int page, int size) {
         Specification<Admin> specification = createSpecification(whereMap);
-        PageRequest pageRequest =  PageRequest.of(page-1, size);
+        PageRequest pageRequest = PageRequest.of(page - 1, size);
         return adminDao.findAll(specification, pageRequest);
     }
 
     /**
      * 条件查询
+     *
      * @param whereMap
      * @return
      */
@@ -69,6 +76,7 @@ public class AdminServiceImpl implements AdminService {
 
     /**
      * 根据ID查询实体
+     *
      * @param id
      * @return
      */
@@ -79,17 +87,22 @@ public class AdminServiceImpl implements AdminService {
 
     /**
      * 增加
+     *
      * @param admin
      */
     @Override
     public void add(Admin admin) {
         // 雪花分布式ID生成器
-        admin.setId( idWorker.nextId()+"" );
+        admin.setId(idWorker.nextId() + "");
+        // 密码加密
+        String newpassword = encoder.encode(admin.getPassword());
+        admin.setPassword(newpassword);
         adminDao.save(admin);
     }
 
     /**
      * 修改
+     *
      * @param admin
      */
     @Override
@@ -99,6 +112,7 @@ public class AdminServiceImpl implements AdminService {
 
     /**
      * 删除
+     *
      * @param id
      */
     @Override
@@ -107,7 +121,25 @@ public class AdminServiceImpl implements AdminService {
     }
 
     /**
+     * 管理员登陆密码校验
+     *
+     * @param loginname
+     * @param password
+     * @return
+     */
+    @Override
+    public Admin findByLoginname(String loginname, String password) {
+        Admin admin = adminDao.findByLoginname(loginname);
+        if (admin != null && encoder.matches(password, admin.getPassword())) {
+            return admin;
+        } else {
+            return null;
+        }
+    }
+
+    /**
      * 动态条件构建
+     *
      * @param searchMap
      * @return
      */

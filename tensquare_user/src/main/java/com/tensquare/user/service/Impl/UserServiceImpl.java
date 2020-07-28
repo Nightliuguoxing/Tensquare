@@ -10,6 +10,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -39,6 +40,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
+
+    @Autowired
+    private BCryptPasswordEncoder encoder;
 
     /**
      * 查询全部列表
@@ -91,32 +95,40 @@ public class UserServiceImpl implements UserService {
     /**
      * 增加
      *
-     * @param user
-     * FIXME: Redis maybe not write in;
+     * @param user FIXME: Redis maybe not write in;
      */
     @Override
     public void add(User user, String code) {
-        //判断验证码是否正确
+        // 判断验证码是否正确
         String syscode = (String) redisTemplate.opsForValue().get("smscode_" + user.getMobile());
-        //提取系统正确的验证码
-
+        // 提取系统正确的验证码
         if (syscode == null) {
             throw new RuntimeException("请点击获取短信验证码");
         }
         if (!syscode.equals(code)) {
             throw new RuntimeException("验证码输入不正确");
         }
+
+        // 密码加密
+        String newpassword = encoder.encode(user.getPassword());
+
         user.setId(idWorker.nextId() + "");
+        user.setPassword(newpassword);
         // 关注数
         user.setFollowcount(0);
+
         // 粉丝数
         user.setFanscount(0);
+
         // 在线时长
         user.setOnline(0L);
+
         // 注册日期
         user.setRegdate(new Date());
+
         // 更新日期
         user.setUpdatedate(new Date());
+
         // 最后登陆日期
         user.setLastdate(new Date());
 
@@ -154,8 +166,10 @@ public class UserServiceImpl implements UserService {
             code = code + min;
         }
         System.out.println(mobile + "收到验证码是：" + code);
+
         // 2.将验证码放入redis 五分钟过期
-        redisTemplate.opsForValue().set("smscode_" + mobile, code + "", 5, TimeUnit.MINUTES);
+        redisTemplate.opsForValue().set("smscode_" + mobile, Integer.toString(code), 5, TimeUnit.MINUTES);
+
         // 3.将验证码和手机号发动到rabbitMQ中
         Map<String, String> map = new HashMap();
         map.put("mobile", mobile);
