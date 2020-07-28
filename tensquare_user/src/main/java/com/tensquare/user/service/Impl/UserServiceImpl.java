@@ -178,6 +178,23 @@ public class UserServiceImpl implements UserService {
     }
 
     /**
+     * 根据手机号和密码查询用户
+     *
+     * @param mobile
+     * @param password
+     * @return     
+     */
+    @Override
+    public User findByMobileAndPassword(String mobile, String password) {
+        User user = userDao.findByMobile(mobile);
+        if (user != null && encoder.matches(password, user.getPassword())) {
+            return user;
+        } else {
+            return null;
+        }
+    }
+
+    /**
      * 动态条件构建
      *
      * @param searchMap
