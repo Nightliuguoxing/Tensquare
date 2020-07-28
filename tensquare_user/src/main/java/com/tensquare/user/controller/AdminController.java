@@ -3,12 +3,14 @@ package com.tensquare.user.controller;
 import com.tensquare.common.entity.PageResult;
 import com.tensquare.common.entity.Result;
 import com.tensquare.common.entity.StatusCode;
+import com.tensquare.common.util.JwtUtil;
 import com.tensquare.user.pojo.Admin;
 import com.tensquare.user.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -24,6 +26,9 @@ public class AdminController {
 
     @Autowired
     private AdminService adminService;
+
+    @Autowired
+    private JwtUtil jwtUtil;
 
     /**
      * 查询全部数据
@@ -107,6 +112,7 @@ public class AdminController {
 
     /**
      * 用户登陆
+     *
      * @param loginMap
      * @return
      */
@@ -115,10 +121,15 @@ public class AdminController {
         Admin admin = adminService.findByLoginname(loginMap.get("loginname"), loginMap.get("password"));
 
         if (admin != null) {
-            return new Result(true, StatusCode.OK, "登陆成功");
+            // 生成token
+            String token = jwtUtil.createJWT(admin.getId(), admin.getLoginname(), "admin");
+            Map map = new HashMap();
+            map.put("token", token);
+            // 登陆名
+            map.put("name", admin.getLoginname());
+            return new Result(true, StatusCode.OK, "登陆成功", map);
         } else {
-            return new Result(false, StatusCode.LOGINERROR, "用户名或密码错误");
-
+            return new Result(false, StatusCode.LOGINERROR, "用户名或密码错 误");
         }
     }
 }

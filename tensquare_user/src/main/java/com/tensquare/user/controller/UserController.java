@@ -3,12 +3,16 @@ package com.tensquare.user.controller;
 import com.tensquare.common.entity.PageResult;
 import com.tensquare.common.entity.Result;
 import com.tensquare.common.entity.StatusCode;
+import com.tensquare.common.util.JwtUtil;
 import com.tensquare.user.pojo.User;
 import com.tensquare.user.service.UserService;
+import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -24,6 +28,12 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private HttpServletRequest request;
+
+    @Autowired
+    private JwtUtil jwtUtil;
 
     /**
      * 查询全部数据
@@ -101,6 +111,10 @@ public class UserController {
      */
     @DeleteMapping("/{id}")
     public Result delete(@PathVariable String id) {
+        Claims claims = (Claims) request.getAttribute("admin_claims");
+        if (claims == null) {
+            return new Result(true, StatusCode.ACCESSERROR, "无权访问");
+        }
         userService.deleteById(id);
         return new Result(true, StatusCode.OK, "删除成功");
     }
@@ -120,19 +134,26 @@ public class UserController {
     /**
      * 用户登陆
      *
-     * @param mobile
-     * @param password
+     * @param loginMap
      * @return
      */
     @PostMapping("/login")
-    public Result login(String mobile, String password) {
-        User user = userService.findByMobileAndPassword(mobile, password);
+    public Result login(@RequestBody Map<String, String> loginMap) {
+        User user = userService.findByMobileAndPassword(loginMap.get("mobile"), loginMap.get("password"));
         if (user != null) {
-            return new Result(true, StatusCode.OK, "登陆成功");
+            String token = jwtUtil.createJWT(user.getId(), user.getNickname(), "user");
+            Map map = new HashMap();
+            map.put("token", token);
+            // 昵称
+            map.put("name", user.getNickname());
+            // 头像
+            map.put("avatar", user.getAvatar());
+            return new Result(true, StatusCode.OK, "登陆成功", map);
         } else {
             return new Result(false, StatusCode.LOGINERROR, "用户名或密码错误");
 
         }
-    }
-}
 
+    }
+
+}

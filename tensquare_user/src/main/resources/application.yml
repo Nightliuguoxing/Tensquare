@@ -17,3 +17,8 @@ spring:
     host: 127.0.0.1
   rabbitmq:
     host: localhost
+
+jwt:
+  config:
+    key: Lucifer
+    ttl: 360000
