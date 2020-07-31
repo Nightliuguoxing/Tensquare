@@ -4,6 +4,7 @@ import com.tensquare.common.util.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.context.annotation.Bean;
  * @CreateTime: 2020-07-26 11:51
  * @Description: 活动微服务启动类
  */
+@EnableEurekaClient
 @EnableCaching
 @SpringBootApplication
 public class GatheringApplication {

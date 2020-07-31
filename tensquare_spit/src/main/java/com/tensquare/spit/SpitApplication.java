@@ -3,6 +3,7 @@ package com.tensquare.spit;
 import com.tensquare.common.util.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Bean;
  * @CreateTime: 2020-07-26 16:37
  * @Description: 吐槽微服务启动类
  */
+@EnableEurekaClient
 @SpringBootApplication
 public class SpitApplication {
 
