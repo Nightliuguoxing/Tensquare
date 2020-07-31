@@ -14,6 +14,7 @@
         <module>tensquare_search</module>
         <module>tensquare_user</module>
         <module>tensquare_sms</module>
+        <module>tensquare_eureka</module>
     </modules>
 
     <parent>
@@ -32,6 +33,18 @@
         <project.reporting.outputEncoding>UTF‐8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.SR4</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -58,8 +71,11 @@
             <id>spring‐milestones</id>
             <name>Spring Milestones</name>
             <url>https://repo.spring.io/milestone</url>
-            <snapshots><enabled>false</enabled></snapshots>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 
 </project>
