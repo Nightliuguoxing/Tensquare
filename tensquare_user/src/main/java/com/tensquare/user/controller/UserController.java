@@ -156,4 +156,27 @@ public class UserController {
 
     }
 
+    /**
+     * 增加粉丝数
+     *
+     * @param userid
+     * @param x 粉丝数
+     */
+    @PostMapping("/incfans/{userid}/{x}")
+    public void incFanscount(@PathVariable String userid, @PathVariable int x) {
+        userService.incFanscount(userid, x);
+    }
+
+    /**
+     * 增加关注数
+     *
+     * @param userid
+     * @param x 粉丝数
+     */
+    @PostMapping("/incfollow/{userid}/{x}")
+    public void incFollowcount(@PathVariable String userid, @PathVariable int x) {
+        userService.incFollowcount(userid, x);
+    }
+
+
 }

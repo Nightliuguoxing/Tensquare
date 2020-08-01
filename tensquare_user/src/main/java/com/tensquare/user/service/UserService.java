@@ -83,5 +83,21 @@ public interface UserService {
      * @return
      */
     public User findByMobileAndPassword(String mobile, String password);
+
+    /**
+     * 更新粉丝数
+     *
+     * @param userid
+     * @param x
+     */
+    public void incFanscount(String userid,int x);
+
+    /**
+     * 更新关注数
+     *
+     * @param userid
+     * @param x
+     */
+    public void incFollowcount(String userid,int x);
 }
 

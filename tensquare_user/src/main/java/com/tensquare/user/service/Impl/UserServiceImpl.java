@@ -12,6 +12,7 @@ import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -95,7 +96,7 @@ public class UserServiceImpl implements UserService {
     /**
      * 增加
      *
-     * @param user FIXME: Redis maybe not write in;
+     * @param user
      */
     @Override
     public void add(User user, String code) {
@@ -192,6 +193,30 @@ public class UserServiceImpl implements UserService {
         } else {
             return null;
         }
+    }
+
+    /**
+     * 更新粉丝数
+     *
+     * @param userid
+     * @param x
+     */
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void incFanscount(String userid, int x) {
+        userDao.incFanscount(userid, x);
+    }
+
+    /**
+     * 更新关注数
+     *
+     * @param userid
+     * @param x
+     */
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public void incFollowcount(String userid, int x) {
+        userDao.incFollowcount(userid, x);
     }
 
     /**
