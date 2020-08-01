@@ -5,42 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495613b7-8c41-48c7-af14-4b40d8e4bbef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/base-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/base-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_friend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_friend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_friend/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_gathering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_gathering/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_gathering/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_search/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_sms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_sms/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_spit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/article-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/article-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/friend-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/friend-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/gathering-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gathering-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/manager-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/manager-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/qa-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/qa-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/recruit-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/recruit-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/search-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/search-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sms-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sms-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spit-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/spit-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/user-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/user-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/web.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/web.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,12 +62,93 @@
     <favorites_list name="parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/friend-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+            <state relative-caret-position="435">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/gathering-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/manager-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/qa-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/recruit-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/search-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/sms-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/spit-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/user-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/web.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -118,26 +177,11 @@
       </list>
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="2e56ba83-cc3c-4073-bf23-41d31146b1b4" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/config" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/client/UserClient.java" />
-        <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/service/Impl/FriendServiceImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/Impl/LabelClientImpl.java" />
-        <option value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" />
-        <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tensquare_web/src/main/java/web/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/ZuulWebApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ZuulManagerApplication.java" />
@@ -153,7 +197,6 @@
         <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config/base-dev.yml" />
-        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java" />
         <option value="$PROJECT_DIR$/tensquare_article/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tensquare_article/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_friend/pom.xml" />
@@ -177,6 +220,19 @@
         <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/config/article-dev.yml" />
+        <option value="$PROJECT_DIR$/config/friend-dev.yml" />
+        <option value="$PROJECT_DIR$/config/gathering-dev.yml" />
+        <option value="$PROJECT_DIR$/config/manager-dev.yml" />
+        <option value="$PROJECT_DIR$/config/qa-dev.yml" />
+        <option value="$PROJECT_DIR$/config/recruit-dev.yml" />
+        <option value="$PROJECT_DIR$/config/search-dev.yml" />
+        <option value="$PROJECT_DIR$/config/sms-dev.yml" />
+        <option value="$PROJECT_DIR$/config/spit-dev.yml" />
+        <option value="$PROJECT_DIR$/config/user-dev.yml" />
+        <option value="$PROJECT_DIR$/config/web.yml" />
       </list>
     </option>
   </component>
@@ -231,7 +287,60 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="tensquare_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +359,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596266728739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596269867026" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -306,6 +415,11 @@
     </treeState>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -316,8 +430,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.14972973" />
   </component>
-  <component name="RunManager" selected="HTTP Request.BaseApplication#1">
+  <component name="RunManager">
     <configuration name="BaseApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/BaseApplication.http">
       <method v="2" />
     </configuration>
@@ -519,6 +634,7 @@
       <workItem from="1596203446493" duration="1713000" />
       <workItem from="1596205209778" duration="4758000" />
       <workItem from="1596237671465" duration="25268000" />
+      <workItem from="1596266635975" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="Up">
       <created>1595724088424</created>
@@ -681,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596264035410</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add yml config">
+      <created>1596266745156</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1596266745159</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,7 +813,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119831000" />
+    <option name="totallyTimeSpent" value="121535000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -713,6 +836,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.17199148" />
       <window_info id="Web" order="7" sideWeight="0.5010571" side_tool="true" weight="0.17199148" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32875264" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.15539113" />
@@ -824,34 +948,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml.bak" />
-    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -861,20 +958,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/config/article-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_config/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -883,38 +973,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/friend-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/gathering-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/manager-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/qa-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/recruit-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_search/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/config/search-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sms-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/spit-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/config/user-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/base-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -922,104 +982,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="548">
           <caret line="50" column="52" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="52" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_article/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="981">
           <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_friend/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_gathering/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_manager/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_qa/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_recruit/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_search/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_sms/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_spit/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_user/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1030,12 +1071,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1116,6 +1157,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/article-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/friend-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/gathering-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/manager-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/qa-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/recruit-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/search-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sms-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spit-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/user-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/web.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
