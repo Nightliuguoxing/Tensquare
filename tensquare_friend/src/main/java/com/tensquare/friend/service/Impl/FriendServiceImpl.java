@@ -1,5 +1,6 @@
 package com.tensquare.friend.service.Impl;
 
+import com.tensquare.friend.client.UserClient;
 import com.tensquare.friend.dao.FriendDao;
 import com.tensquare.friend.dao.NoFriendDao;
 import com.tensquare.friend.pojo.Friend;
@@ -24,6 +25,16 @@ public class FriendServiceImpl implements FriendService {
     @Autowired
     private NoFriendDao noFriendDao;
 
+    @Autowired
+    private UserClient userClient;
+
+    /**
+     * 向喜欢列表中添加记录
+     *
+     * @param userid
+     * @param friendid
+     * @return
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public int addFriend(String userid, String friendid) {
@@ -42,24 +53,46 @@ public class FriendServiceImpl implements FriendService {
             friendDao.updateLike(userid, friendid, "1");
             friendDao.updateLike(friendid, userid, "1");
         }
+
+        // 增加自己的关注数
+        userClient.incFollowcount(userid, 1);
+        // 增加对方的粉丝数
+        userClient.incFanscount(friendid, 1);
+
         return 1;
     }
 
+    /**
+     * 向不喜欢列表中添加记录
+     *
+     * @param userid
+     * @param friendid
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void addNoFriend(String userid, String friendid) {
-        NoFriend noFriend=new NoFriend();
+        NoFriend noFriend = new NoFriend();
         noFriend.setUserid(userid);
         noFriend.setFriendid(friendid);
         noFriendDao.save(noFriend);
     }
 
+    /**
+     * 删除好友
+     *
+     * @param userid
+     * @param friendid
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void deleteFriend(String userid, String friendid) {
-        friendDao.deleteFriend(userid,friendid);
-        friendDao.updateLike(friendid,userid,"0");
+        friendDao.deleteFriend(userid, friendid);
+        friendDao.updateLike(friendid, userid, "0");
+        // 减少自己的关注数
+        userClient.incFollowcount(userid, -1);
+        // 减少对方的粉丝数
+        userClient.incFanscount(friendid, -1);
         // 向不喜欢表中添加
-        addNoFriend(userid,friendid);
+        addNoFriend(userid, friendid);
     }
 }
