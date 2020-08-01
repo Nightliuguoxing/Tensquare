@@ -3,6 +3,7 @@ package com.tensquare.qa.controller;
 import com.tensquare.common.entity.PageResult;
 import com.tensquare.common.entity.Result;
 import com.tensquare.common.entity.StatusCode;
+import com.tensquare.qa.client.LabelClient;
 import com.tensquare.qa.pojo.Problem;
 import com.tensquare.qa.service.ProblemService;
 import io.jsonwebtoken.Claims;
@@ -30,6 +31,9 @@ public class ProblemController {
     @Autowired
     private HttpServletRequest request;
 
+    @Autowired
+    private LabelClient labelClient;
+
     /**
      * 查询全部数据
      *
@@ -51,7 +55,16 @@ public class ProblemController {
         return new Result(true, StatusCode.OK, "查询成功", problemService.findById(id));
     }
 
-
+    /**
+     * // fixme: add function name
+     * @param labelid
+     * @return
+     */
+    @GetMapping("/label/{labelid}")
+    public Result findLabelById(@PathVariable String labelid){
+        Result result = labelClient.findById(labelid);
+        return result;
+    }
     /**
      * 多条件分页查询
      *

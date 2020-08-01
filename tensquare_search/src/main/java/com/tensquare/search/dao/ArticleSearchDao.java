@@ -4,6 +4,7 @@ import com.tensquare.search.pojo.Article;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+import org.springframework.stereotype.Component;
 
 /**
  * @ClassName: ArticleSearchDao
@@ -11,6 +12,7 @@ import org.springframework.data.elasticsearch.repository.ElasticsearchRepository
  * @CreateTime: 2020-07-27 11:31
  * @Description: 文章搜索数据访问层
  */
+@Component
 public interface ArticleSearchDao extends ElasticsearchRepository<Article,String> {
 
     /**
