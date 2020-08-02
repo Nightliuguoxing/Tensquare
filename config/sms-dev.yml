@@ -5,6 +5,9 @@ spring:
     name: tensquare-sms
   rabbitmq:
     host: localhost
+  cloud:
+    refresh:
+      refreshable: none
 
 aliyun:
   sms:

@@ -11,6 +11,9 @@ spring:
   jpa:
     database: MySQL
     show‐sql: true
+  cloud:
+    refresh:
+      refreshable: none
 jwt:
   config:
     key: Lucifer

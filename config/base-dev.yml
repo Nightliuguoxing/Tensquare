@@ -24,6 +24,3 @@ eureka:
       defaultZone: http://localhost:6868/eureka
   instance:
     prefer-ip-address: true
-
-sms:
-  ip: 127.0.0.1

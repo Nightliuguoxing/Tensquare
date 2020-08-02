@@ -13,6 +13,9 @@ spring:
     database: mysql
     show-sql: true
     generate-ddl: true
+  cloud:
+    refresh:
+      refreshable: none
 
 jwt:
   config:

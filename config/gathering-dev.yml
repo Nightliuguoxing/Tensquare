@@ -15,6 +15,9 @@ spring:
     generate-ddl: true
   redis:
     host: localhost
+  cloud:
+    refresh:
+      refreshable: none
 eureka:
   client:
     service-url:

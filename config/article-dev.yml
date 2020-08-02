@@ -19,6 +19,9 @@ spring:
     mongodb:
       host: localhost
       database: recruitdb
+  cloud:
+    refresh:
+      refreshable: none
 eureka:
   client:
     service-url:
