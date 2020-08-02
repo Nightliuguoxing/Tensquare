@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="495613b7-8c41-48c7-af14-4b40d8e4bbef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/article-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/article-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/base-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/base-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/friend-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/friend-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/gathering-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/gathering-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/manager-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/manager-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/qa-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/qa-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/recruit-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/recruit-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/search-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/search-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sms-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/sms-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/spit-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/spit-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/user-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/user-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/web.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/web.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_friend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_friend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/web.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="36">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -241,7 +227,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596339396337" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596339427747" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -550,7 +536,7 @@
       <workItem from="1596280949784" duration="36000" />
       <workItem from="1596281571589" duration="9000" />
       <workItem from="1596336616649" duration="18000" />
-      <workItem from="1596336728493" duration="2662000" />
+      <workItem from="1596336728493" duration="2696000" />
     </task>
     <task id="LOCAL-00001" summary="Up">
       <created>1595724088424</created>
@@ -736,7 +722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125742000" />
+    <option name="totallyTimeSpent" value="125776000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1199,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/web.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="36">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
