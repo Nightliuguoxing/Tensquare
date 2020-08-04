@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="495613b7-8c41-48c7-af14-4b40d8e4bbef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/AiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/controller/AiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/service/CnnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/service/Word2VecService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/task/TrainTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/utils/CnnUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_ai/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/com/tensquare/common/util/FileUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_ai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_ai/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article_crawler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article_crawler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article_crawler/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article_crawler/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,77 +52,7 @@
     <favorites_list name="parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/AiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/controller/AiController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_ai/src/main/java/com/tensquare/ai/service/CnnService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensquare_article_crawler/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_article_crawler/src/main/java/com/tensquare/crawler/CrawlerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensquare_article_crawler/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -252,49 +171,6 @@
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_article_crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -310,7 +186,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596535331016" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596540118804" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -645,7 +521,7 @@
       <workItem from="1596336616649" duration="18000" />
       <workItem from="1596336728493" duration="3877000" />
       <workItem from="1596381712972" duration="12474000" />
-      <workItem from="1596526812267" duration="5534000" />
+      <workItem from="1596526812267" duration="7285000" />
     </task>
     <task id="LOCAL-00001" summary="Up">
       <created>1595724088424</created>
@@ -836,7 +712,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596531075481</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="up ai">
+      <created>1596535527676</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1596535527676</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -845,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144965000" />
+    <option name="totallyTimeSpent" value="146716000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -858,9 +741,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17148982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17148982" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.17199148" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -884,7 +766,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32946146" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.19298245" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.24890351" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -976,7 +858,8 @@
     <MESSAGE value="up yml config" />
     <MESSAGE value="up" />
     <MESSAGE value="up Crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="up Crawler" />
+    <MESSAGE value="up ai" />
+    <option name="LAST_COMMIT_MESSAGE" value="up ai" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -4897,8 +4780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_article_crawler/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="124">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
