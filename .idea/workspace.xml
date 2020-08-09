@@ -186,7 +186,7 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596540118804" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596540169593" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -521,7 +521,7 @@
       <workItem from="1596336616649" duration="18000" />
       <workItem from="1596336728493" duration="3877000" />
       <workItem from="1596381712972" duration="12474000" />
-      <workItem from="1596526812267" duration="7285000" />
+      <workItem from="1596526812267" duration="7390000" />
     </task>
     <task id="LOCAL-00001" summary="Up">
       <created>1595724088424</created>
@@ -719,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596535527676</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="up yml">
+      <created>1596540137411</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1596540137411</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -728,7 +735,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146716000" />
+    <option name="totallyTimeSpent" value="146821000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -742,7 +749,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17148982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17148982" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.17199148" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -766,7 +773,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32980973" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32946146" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.24890351" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.24890351" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -859,7 +866,8 @@
     <MESSAGE value="up" />
     <MESSAGE value="up Crawler" />
     <MESSAGE value="up ai" />
-    <option name="LAST_COMMIT_MESSAGE" value="up ai" />
+    <MESSAGE value="up yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="up yml" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

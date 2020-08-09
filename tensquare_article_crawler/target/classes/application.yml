@@ -1,0 +1,23 @@
+server:
+  port: 9014
+spring:
+  application:
+    name: tensquare‐article-crawler
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_article?useUnicode=true&character_set_server=utf8mb4&allowMultiQueries=true
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+  cloud:
+    refresh:
+      refreshable: none
+redis:
+  host: localhost
+
+ai:
+  # 语料库目录
+  datapath: /home/lgx/Downloads/ai/article
