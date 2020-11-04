@@ -11,10 +11,10 @@ spring:
 
 aliyun:
   sms:
-    accessKeyId: LTAI1NqkQl45SxK2
-    accessKeySecret: uJ6X4fU3X6cEaDF3SycKxTrQaTNyTl
-    template_code: SMS_171185040
-    sign_name: Samelelgx
+    accessKeyId: 
+    accessKeySecret: 
+    template_code: 
+    sign_name: 
 
 eureka:
   client:
